@@ -2,7 +2,7 @@
 name = "ebbinghaus-cli"
 version = "0.1.0"
 authors = [
-  { name = "Medi194"}
+  { name = "Mediterranean194"}
 ]
 description = "Command-line ebbinghaus review tool"
 requires-python = ">=3.11"
