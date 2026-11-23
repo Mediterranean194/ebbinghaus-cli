@@ -4,10 +4,21 @@
 
 ## 安装
 
-    pip install -e ".[dev]"                          
+```bash
+pip install -e ".[dev]"                          
+```
 
 ## 用法
 
-    ebbinghaus add      添加一张新卡片
-    ebbinghaus review   开始复习到期的卡片
-    ebbinghaus done     标记本次复习完成              
+```bash
+ebbinghaus add      添加一张新卡片
+ebbinghaus review   开始复习到期的卡片
+ebbinghaus done     标记本次复习完成
+```
+
+## 开发
+
+```bash
+pytest
+mypy src
+```            
